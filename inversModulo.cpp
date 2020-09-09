@@ -22,7 +22,7 @@ int main(){
     cout<<"yang dicari adalah hasil invers dari "<<a<<"(mod "<<b<<")"<<endl;
 
     if(__gcd(a,b)==1){
-        cout<<"Salah satu hasil inversnya adalah : "<<inversMod(a,b);;
+        cout<<"Salah satu hasil inversnya adalah : "<<inversMod(a,b);
     }
     else{
         cout<<"Inversnya tidak ada karena "<<a<<" dan "<<b<<" tidak saling prima";
